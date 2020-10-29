@@ -23,6 +23,8 @@ public class alien extends GameObject {
 	
 	public void update() {
 		y+=speed;
+		
+		super.update();
 	}
 	
 	public void draw(Graphics g) {
